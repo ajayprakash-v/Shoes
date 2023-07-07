@@ -1,0 +1,155 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.navigateanimation{
+    transform: translateY(500px) !important;
+    transition: 2s;
+}
+.left{
+    transform: translateX(-100px) !important;
+    transition: 1s;
+}
+.right{
+    transform: translateX(100px) !important;
+    transition: 1s;
+}
+@keyframes intro{
+    from{
+       top: 100%;
+       rotate: 0deg;
+    }
+    to{
+        top:-5vw;
+        rotate: -120deg;
+        
+    }
+}
+@keyframes introtop{
+    from{
+       transform: translateY(100%);
+    }
+    to{
+       transform: translateY(0); 
+    }
+}
+@keyframes fade{
+    from{
+       opacity: 0;
+    }
+    to{
+       opacity: 1; 
+    }
+}
+@keyframes close{
+    from{
+        top:-5vw;
+        rotate: -120deg;
+        
+    }
+    to{
+        top: 100%;
+        rotate: 0deg;
+     }
+}
+
+@keyframes upp{
+    from{
+        transform: translateY(100%);
+        
+    }
+    to{
+        transform: translateY(0);
+     }
+}
+@keyframes downn{
+    from{
+        transform: translateY(0);
+        
+    }
+    to{
+        transform: translateY(200%);
+     }
+}
+.shoes:hover{
+    scale: 1.2;
+    transition: .2s;
+}
+@keyframes productupp {
+    0%{
+        transform: translateY(100%);
+        
+    }
+    50%{
+        transform: translateY(10%);
+        scale: 1.2;
+    }
+    to{
+        scale: 1;
+        transform: translateY(-13vw);
+    }
+}
+@keyframes details {
+    0%{
+        opacity: 0;
+        
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+button:hover{
+    scale:1.1;
+    transition: .5s;
+}
+
+@keyframes deliverbox {
+    0%{
+        transform: translateX(-30px);
+        
+    }
+    25%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translate(-10px,300%);
+    }
+}
+@keyframes delivertruck {
+    0%{
+        transform: translateY(-50px);
+        
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    40%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translate(-200%,-50px);
+    }
+}
+.text{
+    animation: textt .5s;
+}
+@keyframes textt {
+    from{
+        transform: translateX(-10vw);
+        filter: blur(10px);
+    }
+    to{
+        transform: translateX(0vw);
+        filter: blur(0px);
+    }
+}
