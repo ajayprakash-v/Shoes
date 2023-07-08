@@ -28,7 +28,7 @@ const Shoesmenu = (props) => {
     const navigate =() => {
         setNavigate(true)
         setTimeout(()=>{
-            Navi(`showall/${id}`)
+            Navi(`/showall/${id}`)
         },600)
     }
     const fade =() => {
