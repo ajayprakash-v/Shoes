@@ -20,7 +20,7 @@ function Product() {
     const navdeliver = () => {
         setDeliver(true)
         setTimeout(()=>{
-            navigate('/shoes/')
+            navigate('/Shoes/')
         },1900)
     }
   return (
