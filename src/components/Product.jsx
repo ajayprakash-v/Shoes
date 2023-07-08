@@ -53,7 +53,7 @@ function Product() {
         <div className='position-absolute top-0 d-flex justify-content-center align-items-center' style={{height:'100vh',width:'100%',background:'white'}}>
             <div style={{position:"relative"}}>
                 <img src={deliverimage.image} alt=""  style={{width:'18vw',rotate:'90deg',position:'absolute',left:'16vw',bottom:'3.5vw',zIndex:1,animation:'deliverbox 2s '}}/>
-                <img src="/images/deliver.png" alt="" style={{width:'40vw',animation:'delivertruck 2s '}}/>
+                <img src="images/deliver.png" alt="" style={{width:'40vw',animation:'delivertruck 2s '}}/>
             </div>
         </div> : ''
 }
