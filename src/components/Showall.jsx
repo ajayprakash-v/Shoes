@@ -21,7 +21,7 @@ const Showall = () => {
     const navback = () => {
       setclose('close')
       setTimeout(()=>{
-        navigate('/')
+        navigate('/Shoes/')
       },989)
     }
     const colors = ['#e25b45','#ff8357','#fac172','#89d5c9','#adc865']
